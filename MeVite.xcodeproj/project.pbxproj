@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		26F5E11722DBBE0F007C36DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E11622DBBE0F007C36DC /* main.m */; };
+		26F5E11F22DBBE47007C36DC /* Party.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E11E22DBBE47007C36DC /* Party.m */; };
+		26F5E12222DBBE88007C36DC /* Invitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E12122DBBE88007C36DC /* Invitation.m */; };
+		26F5E12522DBC597007C36DC /* FormalInvitation.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F5E12422DBC597007C36DC /* FormalInvitation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		26F5E11322DBBE0F007C36DC /* MeVite */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MeVite; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F5E11622DBBE0F007C36DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F5E11D22DBBE47007C36DC /* Party.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Party.h; sourceTree = "<group>"; };
+		26F5E11E22DBBE47007C36DC /* Party.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Party.m; sourceTree = "<group>"; };
+		26F5E12022DBBE88007C36DC /* Invitation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invitation.h; sourceTree = "<group>"; };
+		26F5E12122DBBE88007C36DC /* Invitation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Invitation.m; sourceTree = "<group>"; };
+		26F5E12322DBC597007C36DC /* FormalInvitation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormalInvitation.h; sourceTree = "<group>"; };
+		26F5E12422DBC597007C36DC /* FormalInvitation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormalInvitation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				26F5E11622DBBE0F007C36DC /* main.m */,
+				26F5E12322DBC597007C36DC /* FormalInvitation.h */,
+				26F5E12422DBC597007C36DC /* FormalInvitation.m */,
+				26F5E12022DBBE88007C36DC /* Invitation.h */,
+				26F5E12122DBBE88007C36DC /* Invitation.m */,
+				26F5E11D22DBBE47007C36DC /* Party.h */,
+				26F5E11E22DBBE47007C36DC /* Party.m */,
 			);
 			path = MeVite;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F5E12222DBBE88007C36DC /* Invitation.m in Sources */,
+				26F5E11F22DBBE47007C36DC /* Party.m in Sources */,
 				26F5E11722DBBE0F007C36DC /* main.m in Sources */,
+				26F5E12522DBC597007C36DC /* FormalInvitation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
